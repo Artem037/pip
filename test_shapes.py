@@ -38,7 +38,7 @@ class SquareTestCase(unittest.TestCase):
     def test_perimeter(self):
         self.assertEqual(square_perimeter(12), 48)
 
-    def incorrect_test_perimeter(self):
+    def test_incorrect_perimeter(self):
         self.assertEqual(square_perimeter(239), 52)
 
 
