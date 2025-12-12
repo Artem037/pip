@@ -23,6 +23,3 @@ def perimeter(a):
             4 * a (float): периметр квадрата
     '''
     return 4 * a
-
-print(area(12))
-print(perimeter(12))
